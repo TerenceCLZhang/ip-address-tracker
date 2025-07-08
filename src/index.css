@@ -1,0 +1,41 @@
+@import url("https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,300..900;1,300..900&display=swap");
+@import "tailwindcss";
+
+@theme {
+  --color-very-dark-gray: hsl(0, 0%, 17%);
+  --color-dark-gray: hsl(0, 0%, 59%);
+
+  --font-rubik: "Rubik", sans-serif;
+}
+
+@layer base {
+  body {
+    @apply font-rubik text-lg text-center min-h-screen;
+  }
+
+  main {
+    @apply relative min-h-screen;
+  }
+
+  h1 {
+    @apply font-medium text-white text-2xl;
+  }
+
+  dl dt {
+    @apply uppercase text-xs font-medium text-dark-gray;
+  }
+
+  dl dd {
+    @apply font-bold;
+  }
+
+  input[type="submit"] {
+    @apply cursor-pointer;
+  }
+}
+
+@layer components {
+  .transition {
+    @apply transition duration-100 ease-in;
+  }
+}
