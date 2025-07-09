@@ -21,7 +21,7 @@
     @apply font-medium text-white text-2xl md:text-4xl;
   }
 
-  input[type="submit"] {
+  button {
     @apply cursor-pointer;
   }
 }
@@ -29,5 +29,20 @@
 @layer components {
   .transition {
     @apply transition duration-100 ease-in;
+  }
+}
+
+.custom-map-container {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  z-index: 0;
+  height: calc(100vh - 260px);
+}
+
+@media (min-width: 1280px) {
+  /* xl breakpoint */
+  .custom-map-container {
+    height: calc(100vh - 280px);
   }
 }

@@ -42,7 +42,7 @@ const Map = () => {
   });
 
   return (
-    <div className="absolute bottom-0 h-[calc(100vh-260px)] xl:h-[calc(100vh-280px)] w-full z-0">
+    <div className="custom-map-container">
       <MapContainer
         center={[lat + latOffset, lon]}
         zoom={15.5}

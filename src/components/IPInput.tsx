@@ -66,12 +66,11 @@ const IPInput = () => {
           onChange={(e) => dispatch(setAddress(e.target.value))}
           className="bg-white w-full border-tran p-3 rounded-tl-xl rounded-bl-xl focus:outline-transparent placeholder:text-xs md:placeholder:text-lg"
         />
-        <input
+        <button
           type="submit"
-          value=""
           aria-label="submit"
           className="h-13 w-20 bg-black bg-[url(./images/icon-arrow.svg)] bg-no-repeat bg-center hover:bg-very-dark-gray transition"
-        />
+        ></button>
       </div>
       {error && <p className="mt-2 text-white font-medium">ERROR: {error}</p>}
     </form>
