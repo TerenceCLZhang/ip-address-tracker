@@ -20,7 +20,7 @@ const DataDisplay = () => {
             <div className="hidden md:block w-px bg-dark-gray/30 mx-4 self-stretch lg:mr-5 xl:mr-10"></div>
           )}
           <div className="mb-2 md:flex-1 lg:mb-0">
-            <dt className="uppercase text-xs font-medium text-dark-gray xl:mb-2">
+            <dt className="uppercase text-xs font-medium text-gray-800 xl:mb-2">
               {key}
             </dt>
             <dd className="font-bold text-sm sm:text-lg md:text-xl lg:text-2xl text-dark">
