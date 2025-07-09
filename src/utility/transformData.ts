@@ -6,9 +6,13 @@ export const transformData = (data: IPApiResponse): Data | undefined => {
 
   const transformedData: Data = {
     address: data.ip,
-    location: `${data.city}, ${data.region_code}, ${data.country_code} ${data.postal}`,
+    location: `${data.city}, ${
+      data.region_code ? `${data.region_code},` : ""
+    } ${data.country_code} ${data.postal}`,
     timezone: `UTC ${data.timezone.utc}`,
     isp: data.connection.isp,
+    lat: data.latitude,
+    lon: data.longitude,
   };
 
   return transformedData;

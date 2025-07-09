@@ -3,4 +3,6 @@ export interface Data {
   location: string;
   timezone: string;
   isp: string;
+  lat: number;
+  lon: number;
 }

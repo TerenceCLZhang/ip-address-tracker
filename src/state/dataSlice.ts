@@ -6,6 +6,8 @@ const initialState: Data = {
   location: "",
   timezone: "",
   isp: "",
+  lat: 0,
+  lon: 0,
 };
 
 const dataSlice = createSlice({
