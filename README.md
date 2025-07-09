@@ -2,7 +2,7 @@
 
 ![website](src/images/readme.png)
 
-A responsive IP address tracker built with modern web technologies. Enter any IP address or domain to fetch and visualise its geolocation data on an interactive map.
+A responsive IP address tracker built with modern web technologies. Enter any IP address or domain to fetch and visualise its geolocation data on an interactive map. You can view the [live site here](https://terenceclzhang-ip-address-tracker.netlify.app/).
 
 This project was insipired by the [Frontend Mentor IP Address Tracker challenge](https://www.frontendmentor.io/challenges/ip-address-tracker-I8-0yYAH0).
 
@@ -64,7 +64,7 @@ This project was insipired by the [Frontend Mentor IP Address Tracker challenge]
 
 ## Contributions
 
-This is a personal project created to showcase my skills. I am not accepting contributions at this time. However, I am open to suggestions, which you can make via the [Disucssions tab](https://github.com/TerenceCLZhang/ip-address-tracker/discussions) or my Frontend Mentor submission page.
+This is a personal project created to showcase my skills. I am not accepting contributions at this time. However, I am open to suggestions, which you can make via the [Disucssions tab](https://github.com/TerenceCLZhang/ip-address-tracker/discussions) or my [Frontend Mentor submission page](https://www.frontendmentor.io/solutions/ip-address-tracker-made-with-react-ts-tailwind-redux-and-leaflet-5YZZG2DuB0).
 
 ## License
 
