@@ -60,7 +60,6 @@ const IPInput = () => {
           type="text"
           id="address"
           name="address"
-          inputMode="numeric"
           placeholder=" Enter an IPv4/IPv6 Address"
           value={address}
           onChange={(e) => dispatch(setAddress(e.target.value))}
